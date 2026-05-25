@@ -117,6 +117,10 @@ int	MAPINT	Read (int Bank, int Addr)
 				result |= 0x02;
 			return result;			break;
 	case 0x33:	return 0x80;			break;
+	// rveach: custom address to return ROM position so we know where the data came from
+	case 0x40:
+		return FDS::BytePtr;
+		break;
 	}
 	return FDSsound::Read((Bank << 12) | Addr);
 }
