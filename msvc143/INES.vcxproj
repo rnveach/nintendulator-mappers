@@ -242,6 +242,11 @@
     <ClCompile Include="..\src\iNES\mapper246.cpp" />
     <ClCompile Include="..\src\iNES\mapper250.cpp" />
     <ClCompile Include="..\src\iNES\mapper254.cpp" />
+    <ClCompile Include="..\src\iNES\mapper012.cpp" />
+    <ClCompile Include="..\src\iNES\mapper039.cpp" />
+    <ClCompile Include="..\src\iNES\mapper054.cpp" />
+    <ClCompile Include="..\src\iNES\mapper187.cpp" />
+    <ClCompile Include="..\src\iNES\mapper212.cpp" />
     <ClCompile Include="..\src\DLL\d_iNES.cpp" />
   </ItemGroup>
   <ItemGroup>
